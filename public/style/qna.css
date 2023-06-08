@@ -1,0 +1,15 @@
+.qna_area{margin-bottom:100px;}
+
+.qna_area .qna{height:600px; background-image:url("/img/qna_bg.jpg"); background-position:center; background-repeat:no-repeat; background-size:cover;}
+.qna_area .qna .qna_text{padding-left:100px; padding-top:200px; color:#fff;}
+.qna_text h2{font-size:100px; margin-bottom:20px;}
+.qna_text h4 {font-size:40px;}
+
+.container .cont {display:flex; justify-content:center; flex-wrap:wrap;}
+.container .cont .qna_box{width:100%; height:300px; margin:30px; display:flex; justify-content:center; align-items:center; 
+                          flex-direction:column; background-color:#343434; color:silver;}
+.qna_box:nth-child(1) .update{display:flex; justify-content:space-between; width:500px; height:50px; margin-bottom:20px;}
+.qna_box .update > p {width:200px; border:1px solid #000; background-color:#000; color:#fff; text-align:center; line-height: 50px;}
+.qna_box .faq {text-align:center; margin-top:50px;}
+.qna_box .faq > h2 {font-size:30px;}
+.qna_box .faq p:nth-child(2) {margin:20px 0;}
